@@ -1,0 +1,17 @@
+{
+  "name": "amsb-ui",
+  "private": true,
+  "description": "React UI Library with Material-UI and Mono Repo",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm install && lerna bootstrap --hoist",
+    "build": "lerna run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^5.1.6"
+  }
+}

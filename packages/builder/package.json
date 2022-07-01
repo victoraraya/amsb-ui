@@ -4,6 +4,7 @@
   "description": "",
   "keywords": [],
   "author": "",
+  "homepage": "https://github.com/victoraraya/amsb-ui/tree/master/packages/builder#readme",
   "license": "ISC",
   "main": "lib/builder.js",
   "directories": {
@@ -19,8 +20,15 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoraraya/amsb-ui.git"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/victoraraya/amsb-ui/issues"
   },
   "dependencies": {
     "@babel/core": "^7.18.6",

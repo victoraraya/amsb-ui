@@ -4,6 +4,7 @@
   "description": "",
   "keywords": [],
   "author": "",
+  "homepage": "https://github.com/victoraraya/amsb-ui/tree/master/packages/core#readme",
   "license": "ISC",
   "main": "dist/core.cjs.js",
   "module": "dist/core.esm.js",
@@ -19,15 +20,22 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoraraya/amsb-ui.git"
+  },
   "scripts": {
     "build": "airmiles-builder",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "devDependencies": {
-    "@amsb-ui/builder": "^0.0.0",
-    "react": "^18.2.0"
+  "bugs": {
+    "url": "https://github.com/victoraraya/amsb-ui/issues"
   },
   "peerDependencies": {
     "react": "18.x"
+  },
+  "devDependencies": {
+    "@amsb-ui/builder": "^0.0.0",
+    "react": "^18.2.0"
   }
 }

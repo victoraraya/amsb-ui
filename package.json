@@ -1,16 +1,25 @@
 {
   "name": "amsb-ui",
   "private": true,
-  "description": "React UI Library with Material-UI and Mono Repo",
+  "version": "0.0.0",
+  "description": "React UI Library",
+  "keywords": [],
   "main": "index.js",
   "scripts": {
     "setup": "npm install && lerna bootstrap --hoist",
     "build": "lerna run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoraraya/amsb-ui.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victoraraya/amsb-ui/issues"
+  },
+  "homepage": "https://github.com/victoraraya/amsb-ui#readme",
   "devDependencies": {
     "lerna": "^5.1.6"
   }

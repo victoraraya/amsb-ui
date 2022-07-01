@@ -1,6 +1,6 @@
 {
   "name": "@amsb-ui/button",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "description": "",
   "keywords": [],
   "author": "",
@@ -35,7 +35,7 @@
     "react": "18.x"
   },
   "devDependencies": {
-    "@amsb-ui/builder": "^0.0.0",
+    "@amsb-ui/builder": "^1.0.1",
     "react": "^18.2.0"
   }
 }

@@ -5,7 +5,7 @@
 ## Usage
 
 ```
-const button = require('@amsb-ui/button');
+import Button from '@amsb-ui/button';
 
 // TODO: DEMONSTRATE API
 ```

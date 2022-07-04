@@ -6,15 +6,15 @@
   "author": "",
   "homepage": "https://github.com/victoraraya/amsb-ui/tree/master/packages/atoms/typography#readme",
   "license": "ISC",
-  "main": "dist/typography.cjs.js",
-  "module": "dist/typography.esm.js",
-  "src": "lib/typography.js",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/types/index.d.ts",
+  "src": "src/index.ts",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "src": "src"
   },
   "files": [
-    "lib",
+    "src",
     "dist"
   ],
   "publishConfig": {
@@ -25,17 +25,35 @@
     "url": "git+https://github.com/victoraraya/amsb-ui.git"
   },
   "scripts": {
-    "build": "airmiles-builder",
+    "build": "rollup -c",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/victoraraya/amsb-ui/issues"
   },
-  "peerDependencies": {
-    "react": "18.x"
-  },
   "devDependencies": {
-    "@amsb-ui/builder": "^1.0.1",
-    "react": "^18.2.0"
+    "@babel/core": "^7.18.5",
+    "@babel/preset-react": "^7.17.12",
+    "@babel/preset-typescript": "^7.17.12",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@types/jest": "^28.1.3",
+    "@types/react": "^18.0.14",
+    "babel-loader": "^8.2.5",
+    "jest": "^28.1.1",
+    "jest-environment-jsdom": "^28.1.1",
+    "rollup": "^2.75.7",
+    "rollup-plugin-dts": "^4.2.2",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": "18.x",
+    "react-dom": "^18.x"
   }
 }

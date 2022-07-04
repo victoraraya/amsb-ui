@@ -5,7 +5,7 @@
 ## Usage
 
 ```
-const typography = require('@amsb-ui/typography');
+import Typography from '@amsb-ui/typography';
 
 // TODO: DEMONSTRATE API
 ```

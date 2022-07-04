@@ -5,10 +5,9 @@ import Typography from "./Typography";
 
 it("should render successfully", () => {
   const { asFragment, getByText } = render(<Typography>Hey!</Typography>);
+  const text = getByText("Hey!");
 
-  const typography = getByText("Hey!");
-
-  expect(typography).toBeInTheDocument();
+  expect(text).toBeInTheDocument();
 
   expect(asFragment()).toMatchSnapshot();
 });

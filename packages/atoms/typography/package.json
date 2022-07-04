@@ -9,12 +9,12 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/types/index.d.ts",
-  "src": "src/index.ts",
+  "src": "lib/index.ts",
   "directories": {
-    "src": "src"
+    "lib": "lib"
   },
   "files": [
-    "src",
+    "lib",
     "dist"
   ],
   "publishConfig": {
@@ -56,5 +56,10 @@
     "react": "18.x",
     "react-dom": "^18.x"
   },
-  "gitHead": "25f00c13c1206a213b12661c110dfb1c6b46cbfe"
+  "gitHead": "25f00c13c1206a213b12661c110dfb1c6b46cbfe",
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.8.7"
+  }
 }

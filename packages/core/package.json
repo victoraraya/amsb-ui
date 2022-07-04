@@ -9,12 +9,12 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/types/index.d.ts",
-  "src": "src/index.ts",
+  "src": "lib/index.ts",
   "directories": {
-    "src": "src"
+    "lib": "lib"
   },
   "files": [
-    "src",
+    "lib",
     "dist"
   ],
   "publishConfig": {

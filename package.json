@@ -2,7 +2,7 @@
   "name": "amsb-ui",
   "private": true,
   "license": "UNLICENSED",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "React UI Library",
   "keywords": [],
   "main": "index.js",

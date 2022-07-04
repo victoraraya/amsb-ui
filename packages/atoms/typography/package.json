@@ -1,6 +1,6 @@
 {
   "name": "@amsb-ui/typography",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "",
   "keywords": [],
   "author": "",
@@ -56,7 +56,7 @@
     "react": "18.x",
     "react-dom": "^18.x"
   },
-  "gitHead": "25f00c13c1206a213b12661c110dfb1c6b46cbfe",
+  "gitHead": "1a5530c3990c8ea6be65147b9a56f322576d51de",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",

@@ -1,6 +1,6 @@
 {
   "name": "@amsb-ui/core",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "",
   "keywords": [],
   "author": "",
@@ -32,8 +32,8 @@
     "url": "https://github.com/victoraraya/amsb-ui/issues"
   },
   "dependencies": {
-    "@amsb-ui/button": "^1.0.1",
-    "@amsb-ui/typography": "^1.0.1"
+    "@amsb-ui/button": "^2.0.0",
+    "@amsb-ui/typography": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.18.5",
@@ -49,12 +49,12 @@
     "babel-loader": "^8.2.5",
     "jest": "^28.1.1",
     "jest-environment-jsdom": "^28.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rollup": "^2.75.7",
     "rollup-plugin-dts": "^4.2.2",
     "ts-jest": "^28.0.5",
-    "typescript": "^4.7.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "typescript": "^4.7.4"
   },
   "peerDependencies": {
     "react": "18.x",

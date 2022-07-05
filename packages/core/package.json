@@ -31,12 +31,23 @@
   "bugs": {
     "url": "https://github.com/victoraraya/amsb-ui/issues"
   },
-  "dependencies": {
-    "@amsb-ui/button": "^2.2.0",
-    "@amsb-ui/typography": "^2.2.0"
-  },
   "devDependencies": {
-    "@amsb-ui/builder": "^2.2.0"
+    "@amsb-ui/builder": "^2.2.0",
+    "@amsb-ui/theme": "^1.0.0",
+    "@amsb-ui/button": "^2.2.0",
+    "@amsb-ui/typography": "^2.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.8.7"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.8.7"
   },
   "gitHead": "40d51fa6ad910d549502801ddaea854f6d105219"
 }

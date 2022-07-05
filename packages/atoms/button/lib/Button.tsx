@@ -1,11 +1,9 @@
-import React from "react";
+import Button from "@mui/material/Button";
+import { styled } from "@mui/material/styles";
 
-export interface Props {
-  children: React.ReactNode;
-}
+const AirMilesButton = styled(Button)({
+  minWidth: 190,
+  boxShadow: "none",
+});
 
-const Button = ({ children }: Props) => {
-  return <button>{children}</button>;
-};
-
-export default Button;
+export default AirMilesButton;

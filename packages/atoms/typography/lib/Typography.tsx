@@ -1,11 +1,6 @@
-import React from "react";
+import Typography from "@mui/material/Typography";
+import { styled } from "@mui/material/styles";
 
-interface Props {
-  children: React.ReactNode;
-}
+const AirMilesTypography = styled(Typography)({});
 
-const Typography = ({ children }: Props) => {
-  return <p>{children}</p>;
-};
-
-export default Typography;
+export default AirMilesTypography;

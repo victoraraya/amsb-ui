@@ -41,5 +41,6 @@
     "rollup": "^2.11.2",
     "rollup-plugin-dts": "^4.2.2",
     "typescript": "^4.7.4"
-  }
+  },
+  "gitHead": "ae85b40f91e8d61f07c6c3c3ec4ebe648a00ffd4"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@amsb-ui/core",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "",
   "keywords": [],
   "author": "",
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@amsb-ui/button": "^2.0.3",
-    "@amsb-ui/theme": "^2.0.5",
+    "@amsb-ui/theme": "^2.0.7",
     "@amsb-ui/typography": "^2.0.3"
   },
   "devDependencies": {

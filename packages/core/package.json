@@ -1,6 +1,6 @@
 {
   "name": "@amsb-ui/core",
-  "version": "2.0.7",
+  "version": "2.1.0",
   "description": "",
   "keywords": [],
   "author": "",
@@ -32,11 +32,11 @@
     "url": "https://github.com/victoraraya/amsb-ui/issues"
   },
   "dependencies": {
-    "@amsb-ui/button": "^2.0.3",
-    "@amsb-ui/typography": "^2.0.3"
+    "@amsb-ui/button": "^2.1.0",
+    "@amsb-ui/typography": "^2.1.0"
   },
   "devDependencies": {
-    "@amsb-ui/builder": "^2.0.7"
+    "@amsb-ui/builder": "^2.1.0"
   },
   "gitHead": "7996380702433c36df2846a631fc10cebb135c24"
 }

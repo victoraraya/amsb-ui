@@ -1,6 +1,6 @@
 {
   "name": "@amsb-ui/typography",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "",
   "keywords": [],
   "author": "",
@@ -32,11 +32,11 @@
     "url": "https://github.com/victoraraya/amsb-ui/issues"
   },
   "devDependencies": {
-    "@amsb-ui/builder": "^2.1.0",
+    "@amsb-ui/builder": "^2.2.0",
     "react": "^18.2.0"
   },
   "peerDependencies": {
     "react": "^18.x"
   },
-  "gitHead": "ae85b40f91e8d61f07c6c3c3ec4ebe648a00ffd4"
+  "gitHead": "40d51fa6ad910d549502801ddaea854f6d105219"
 }

@@ -6,4 +6,11 @@ import rollup from "../../config/rollup.config";
 
 const packageJson = require("./package.json");
 
-export default rollup(packageJson, resolve, commonjs, typescript, dts);
+export default rollup(
+  packageJson,
+  resolve,
+  commonjs,
+  typescript,
+  dts,
+  "dist/AirMilesThemeProvider.d.ts"
+);

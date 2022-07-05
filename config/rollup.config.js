@@ -1,4 +1,11 @@
-const configure = (packageJson, resolve, commonjs, typescript, dts) => {
+const configure = (
+  packageJson,
+  resolve,
+  commonjs,
+  typescript,
+  dts,
+  typesOutputFile = null
+) => {
   return [
     {
       input: packageJson.src,
@@ -25,7 +32,12 @@ const configure = (packageJson, resolve, commonjs, typescript, dts) => {
     },
     {
       input: packageJson.types,
-      output: [{ file: "dist/index.d.ts", format: "esm" }],
+      output: [
+        {
+          file: typesOutputFile ? typesOutputFile : "dist/index.d.ts",
+          format: "esm",
+        },
+      ],
       plugins: [dts()],
     },
   ];

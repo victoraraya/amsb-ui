@@ -1,6 +1,6 @@
 {
   "name": "@amsb-ui/theme",
-  "version": "1.0.0",
+  "version": "2.2.1",
   "description": "",
   "keywords": [],
   "author": "",
@@ -32,19 +32,19 @@
     "url": "https://github.com/victoraraya/amsb-ui/issues"
   },
   "devDependencies": {
-    "@amsb-ui/builder": "^2.2.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "@amsb-ui/builder": "^2.2.1",
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
-    "@mui/material": "^5.8.7"
+    "@mui/material": "^5.8.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "peerDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
-    "@mui/material": "^5.8.7"
+    "@mui/material": "^5.8.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "gitHead": "40d51fa6ad910d549502801ddaea854f6d105219"
 }

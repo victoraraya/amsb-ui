@@ -26,7 +26,7 @@
   },
   "scripts": {
     "build": "rollup-builder",
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "jest"
   },
   "bugs": {
     "url": "https://github.com/victoraraya/amsb-ui/issues"

@@ -8,6 +8,7 @@
     "main": "index.js",
     "scripts": {
         "setup": "npm install --legacy-peer-deps && lerna bootstrap --hoist",
+        "bootstrap": "lerna bootstrap --hoist",
         "build": "lerna run build",
         "test": "lerna run test",
         "storybook": "start-storybook -p 6006",

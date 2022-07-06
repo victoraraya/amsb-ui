@@ -15,7 +15,8 @@
         "lint": "eslint \"packages/**/*.{js,ts,tsx}\"",
         "prettier": "npx prettier --check \"packages/**/*.{js,ts,tsx}\"",
         "prettier:fix": "npx prettier --write \"packages/**/*.{js,ts,tsx}\"",
-        "husky": "husky install"
+        "husky": "husky install",
+        "commit": "cz"
     },
     "repository": {
         "type": "git",
@@ -52,6 +53,8 @@
         "@types/jest": "^28.1.4",
         "@typescript-eslint/eslint-plugin": "^5.30.5",
         "@typescript-eslint/parser": "^5.30.5",
+        "commitizen": "^4.2.4",
+        "cz-conventional-changelog": "^3.2.0",
         "eslint": "^8.19.0",
         "eslint-config-airbnb": "^19.0.4",
         "eslint-config-airbnb-typescript": "^17.0.0",
@@ -68,5 +71,10 @@
         "lint-staged": "^13.0.3",
         "prettier": "^2.3.0",
         "ts-jest": "^28.0.5"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
     }
 }

@@ -40,5 +40,5 @@
     "rollup-plugin-dts": "^4.2.2",
     "rollup-plugin-peer-deps-external": "^2.2.4"
   },
-  "gitHead": "4f848ff63c46a33f2dcc7685828231ded8f534a8"
+  "gitHead": "cea1035dcfd34839613348c33f7839a6b69787ee"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@amsb-ui/button",
-  "version": "2.2.1",
+  "version": "2.3.0",
   "description": "",
   "keywords": [],
   "author": "",
@@ -32,20 +32,20 @@
     "url": "https://github.com/victoraraya/amsb-ui/issues"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "@amsb-ui/builder": "^2.3.0",
+    "@amsb-ui/theme": "^2.3.0",
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
     "@mui/material": "^5.8.7",
-    "@amsb-ui/builder": "^2.2.1",
-    "@amsb-ui/theme": "^2.2.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "peerDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
-    "@mui/material": "^5.8.7"
+    "@mui/material": "^5.8.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
-  "gitHead": "4f848ff63c46a33f2dcc7685828231ded8f534a8"
+  "gitHead": "cea1035dcfd34839613348c33f7839a6b69787ee"
 }

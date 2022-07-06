@@ -1,14 +1,14 @@
-import { render } from "@testing-library/react";
-import "@testing-library/jest-dom";
+import { render } from '@testing-library/react';
+import '@testing-library/jest-dom';
 
-import Button from "./Button";
+import Button from './Button';
 
-it("should render successfully", () => {
-  const { asFragment, getByText } = render(<Button>Hey!</Button>);
+it('should render successfully', () => {
+    const { asFragment, getByText } = render(<Button>Hey!</Button>);
 
-  const button = getByText("Hey!");
+    const button = getByText('Hey!');
 
-  expect(button).toBeInTheDocument();
+    expect(button).toBeInTheDocument();
 
-  expect(asFragment()).toMatchSnapshot();
+    expect(asFragment()).toMatchSnapshot();
 });

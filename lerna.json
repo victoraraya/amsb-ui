@@ -1,14 +1,10 @@
 {
-  "packages": [
-    "packages/**/*"
-  ],
-  "version": "2.3.0",
-  "hoist": true,
-  "stream": true,
-  "bootstrap": {
-    "npmClientArgs": [
-      "--no-package-lock"
-    ]
-  },
-  "useNx": false
+    "packages": ["packages/**/*"],
+    "version": "2.3.0",
+    "hoist": true,
+    "stream": true,
+    "bootstrap": {
+        "npmClientArgs": ["--no-package-lock"]
+    },
+    "useNx": false
 }

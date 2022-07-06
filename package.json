@@ -1,54 +1,69 @@
 {
-  "name": "amsb-ui",
-  "private": true,
-  "license": "UNLICENSED",
-  "version": "1.0.0",
-  "description": "React UI Library",
-  "keywords": [],
-  "main": "index.js",
-  "scripts": {
-    "setup": "npm install --legacy-peer-deps && lerna bootstrap --hoist",
-    "build": "lerna run build",
-    "test": "lerna run test",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/victoraraya/amsb-ui.git"
-  },
-  "author": "",
-  "bugs": {
-    "url": "https://github.com/victoraraya/amsb-ui/issues"
-  },
-  "homepage": "https://github.com/victoraraya/amsb-ui#readme",
-  "dependencies": {
-    "@emotion/react": "^11.9.3",
-    "@emotion/styled": "^11.9.3",
-    "@mui/material": "^5.8.7",
-    "@types/node": "^18.0.2",
-    "@types/react": "^18.0.15",
-    "@types/react-dom": "^18.0.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "typescript": "^4.7.4"
-  },
-  "devDependencies": {
-    "@emotion/jest": "^11.9.3",
-    "@storybook/addon-actions": "^6.5.9",
-    "@storybook/addon-essentials": "^6.5.9",
-    "@storybook/addon-interactions": "^6.5.9",
-    "@storybook/addon-links": "^6.5.9",
-    "@storybook/builder-webpack4": "^6.5.9",
-    "@storybook/manager-webpack4": "^6.5.9",
-    "@storybook/react": "^6.5.9",
-    "@storybook/testing-library": "^0.0.13",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
-    "@types/jest": "^28.1.4",
-    "jest": "^28.1.2",
-    "jest-environment-jsdom": "^28.1.2",
-    "lerna": "^5.1.6",
-    "ts-jest": "^28.0.5"
-  }
+    "name": "amsb-ui",
+    "private": true,
+    "license": "UNLICENSED",
+    "version": "1.0.0",
+    "description": "React UI Library",
+    "keywords": [],
+    "main": "index.js",
+    "scripts": {
+        "setup": "nvm use && npm install --legacy-peer-deps && lerna bootstrap --hoist",
+        "build": "lerna run build",
+        "test": "lerna run test",
+        "storybook": "start-storybook -p 6006",
+        "build-storybook": "build-storybook",
+        "lint": "eslint \"packages/**/*.{ts,tsx}\"",
+        "prettier": "npx prettier --check \"packages/**/*.{ts,tsx}\"",
+        "prettier:fix": "npx prettier --write \"packages/**/*.{ts,tsx}\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/victoraraya/amsb-ui.git"
+    },
+    "author": "",
+    "bugs": {
+        "url": "https://github.com/victoraraya/amsb-ui/issues"
+    },
+    "homepage": "https://github.com/victoraraya/amsb-ui#readme",
+    "dependencies": {
+        "@emotion/react": "^11.9.3",
+        "@emotion/styled": "^11.9.3",
+        "@mui/material": "^5.8.7",
+        "@types/node": "^18.0.2",
+        "@types/react": "^18.0.15",
+        "@types/react-dom": "^18.0.6",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "typescript": "^4.7.4"
+    },
+    "devDependencies": {
+        "@emotion/jest": "^11.9.3",
+        "@storybook/addon-actions": "^6.5.9",
+        "@storybook/addon-essentials": "^6.5.9",
+        "@storybook/addon-interactions": "^6.5.9",
+        "@storybook/addon-links": "^6.5.9",
+        "@storybook/builder-webpack4": "^6.5.9",
+        "@storybook/manager-webpack4": "^6.5.9",
+        "@storybook/react": "^6.5.9",
+        "@storybook/testing-library": "^0.0.13",
+        "@testing-library/jest-dom": "^5.16.4",
+        "@testing-library/react": "^13.3.0",
+        "@types/jest": "^28.1.4",
+        "@typescript-eslint/eslint-plugin": "^5.30.5",
+        "@typescript-eslint/parser": "^5.30.5",
+        "eslint": "^8.19.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jsx-a11y": "^6.6.0",
+        "eslint-plugin-react": "^7.30.1",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "jest": "^28.1.2",
+        "jest-environment-jsdom": "^28.1.2",
+        "lerna": "^5.1.6",
+        "ts-jest": "^28.0.5",
+        "eslint-config-airbnb-typescript": "^17.0.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "prettier": "^2.3.0"
+    }
 }

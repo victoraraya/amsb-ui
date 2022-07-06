@@ -1,51 +1,51 @@
 {
-  "name": "@amsb-ui/typography",
-  "version": "2.3.0",
-  "description": "",
-  "keywords": [],
-  "author": "",
-  "homepage": "https://github.com/victoraraya/amsb-ui/tree/master/packages/atoms/typography#readme",
-  "license": "ISC",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "src": "lib/index.ts",
-  "typings": "dist/cjs/types/",
-  "directories": {
-    "lib": "lib"
-  },
-  "files": [
-    "lib",
-    "dist"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/victoraraya/amsb-ui.git"
-  },
-  "scripts": {
-    "build": "rollup-builder",
-    "test": "jest"
-  },
-  "bugs": {
-    "url": "https://github.com/victoraraya/amsb-ui/issues"
-  },
-  "dependencies": {
-    "@amsb-ui/builder": "^2.3.0",
-    "@amsb-ui/theme": "^2.3.0",
-    "@emotion/react": "^11.9.3",
-    "@emotion/styled": "^11.9.3",
-    "@mui/material": "^5.8.7",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "peerDependencies": {
-    "@emotion/react": "^11.9.3",
-    "@emotion/styled": "^11.9.3",
-    "@mui/material": "^5.8.7",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "gitHead": "cea1035dcfd34839613348c33f7839a6b69787ee"
+    "name": "@amsb-ui/typography",
+    "version": "2.3.0",
+    "description": "",
+    "keywords": [],
+    "author": "",
+    "homepage": "https://github.com/victoraraya/amsb-ui/tree/master/packages/atoms/typography#readme",
+    "license": "ISC",
+    "main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
+    "src": "lib/index.ts",
+    "typings": "dist/cjs/types/",
+    "directories": {
+        "lib": "lib"
+    },
+    "files": [
+        "lib",
+        "dist"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/victoraraya/amsb-ui.git"
+    },
+    "scripts": {
+        "build": "rollup-builder",
+        "test": "jest"
+    },
+    "bugs": {
+        "url": "https://github.com/victoraraya/amsb-ui/issues"
+    },
+    "dependencies": {
+        "@amsb-ui/builder": "^2.3.0",
+        "@amsb-ui/theme": "^2.3.0",
+        "@emotion/react": "^11.9.3",
+        "@emotion/styled": "^11.9.3",
+        "@mui/material": "^5.8.7",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "peerDependencies": {
+        "@emotion/react": "^11.9.3",
+        "@emotion/styled": "^11.9.3",
+        "@mui/material": "^5.8.7",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "gitHead": "cea1035dcfd34839613348c33f7839a6b69787ee"
 }

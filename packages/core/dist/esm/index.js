@@ -1,5 +1,14 @@
-import * as React from 'react';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+import Button from '@mui/material/Button';
+import { styled, createTheme, ThemeProvider } from '@mui/material/styles';
+import Typography from '@mui/material/Typography';
+import { jsx } from 'react/jsx-runtime';
+
+const AirMilesButton = styled(Button)({
+    minWidth: 190,
+    boxShadow: 'none',
+});
+
+const AirMilesTypography = styled(Typography)({});
 
 const theme = createTheme({
     palette: {
@@ -54,13 +63,6 @@ const theme = createTheme({
         },
     },
 });
+const AirMilesThemeProvider = ({ children }) => (jsx(ThemeProvider, Object.assign({ theme: theme }, { children: children })));
 
-export interface Props {
-    children: React.ReactNode;
-}
-
-const AirMilesThemeProvider = ({ children }: Props) => (
-    <ThemeProvider theme={theme}>{children}</ThemeProvider>
-);
-
-export default AirMilesThemeProvider;
+export { AirMilesButton as Button, AirMilesThemeProvider as ThemeProvider, AirMilesTypography as Typography };

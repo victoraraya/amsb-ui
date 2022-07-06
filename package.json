@@ -10,6 +10,7 @@
         "setup": "npm install --legacy-peer-deps && lerna bootstrap --hoist",
         "bootstrap": "lerna bootstrap --hoist",
         "build": "lerna run build",
+        "build:c": "lerna run build --scope",
         "test": "lerna run test",
         "storybook": "start-storybook -p 6006",
         "build-storybook": "build-storybook",

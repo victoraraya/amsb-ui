@@ -1,7 +1,25 @@
-import * as React from 'react';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+'use strict';
 
-const theme = createTheme({
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var Button = require('@mui/material/Button');
+var styles = require('@mui/material/styles');
+var Typography = require('@mui/material/Typography');
+var jsxRuntime = require('react/jsx-runtime');
+
+function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+
+var Button__default = /*#__PURE__*/_interopDefaultLegacy(Button);
+var Typography__default = /*#__PURE__*/_interopDefaultLegacy(Typography);
+
+const AirMilesButton = styles.styled(Button__default["default"])({
+    minWidth: 190,
+    boxShadow: 'none',
+});
+
+const AirMilesTypography = styles.styled(Typography__default["default"])({});
+
+const theme = styles.createTheme({
     palette: {
         primary: {
             main: '#3A92E9',
@@ -54,13 +72,8 @@ const theme = createTheme({
         },
     },
 });
+const AirMilesThemeProvider = ({ children }) => (jsxRuntime.jsx(styles.ThemeProvider, Object.assign({ theme: theme }, { children: children })));
 
-export interface Props {
-    children: React.ReactNode;
-}
-
-const AirMilesThemeProvider = ({ children }: Props) => (
-    <ThemeProvider theme={theme}>{children}</ThemeProvider>
-);
-
-export default AirMilesThemeProvider;
+exports.Button = AirMilesButton;
+exports.ThemeProvider = AirMilesThemeProvider;
+exports.Typography = AirMilesTypography;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render successfully 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  box-sizing: border-box;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+<div
+    class="MuiGrid-root emotion-0"
+  >
+    Hey!
+  </div>
+</DocumentFragment>
+`;

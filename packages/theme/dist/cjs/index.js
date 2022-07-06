@@ -1,7 +1,9 @@
-import * as React from 'react';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+'use strict';
 
-const theme = createTheme({
+var jsxRuntime = require('react/jsx-runtime');
+var styles = require('@mui/material/styles');
+
+const theme = styles.createTheme({
     palette: {
         primary: {
             main: '#3A92E9',
@@ -54,13 +56,6 @@ const theme = createTheme({
         },
     },
 });
+const AirMilesThemeProvider = ({ children }) => (jsxRuntime.jsx(styles.ThemeProvider, Object.assign({ theme: theme }, { children: children })));
 
-export interface Props {
-    children: React.ReactNode;
-}
-
-const AirMilesThemeProvider = ({ children }: Props) => (
-    <ThemeProvider theme={theme}>{children}</ThemeProvider>
-);
-
-export default AirMilesThemeProvider;
+module.exports = AirMilesThemeProvider;

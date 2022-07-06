@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-disable import/no-unresolved */
 const rollup = require('rollup');
 const typescript = require('@rollup/plugin-typescript');
 const resolve = require('@rollup/plugin-node-resolve').nodeResolve;

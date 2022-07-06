@@ -12,9 +12,9 @@
         "test": "lerna run test",
         "storybook": "start-storybook -p 6006",
         "build-storybook": "build-storybook",
-        "lint": "eslint \"packages/**/*.{ts,tsx}\"",
-        "prettier": "npx prettier --check \"packages/**/*.{ts,tsx}\"",
-        "prettier:fix": "npx prettier --write \"packages/**/*.{ts,tsx}\""
+        "lint": "eslint \"packages/**/*.{js,ts,tsx}\"",
+        "prettier": "npx prettier --check \"packages/**/*.{js,ts,tsx}\"",
+        "prettier:fix": "npx prettier --write \"packages/**/*.{js,ts,tsx}\""
     },
     "repository": {
         "type": "git",
@@ -63,6 +63,7 @@
         "jest": "^28.1.2",
         "jest-environment-jsdom": "^28.1.2",
         "lerna": "^5.1.6",
+        "lint-staged": "^13.0.3",
         "prettier": "^2.3.0",
         "ts-jest": "^28.0.5"
     }

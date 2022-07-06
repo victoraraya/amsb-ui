@@ -14,7 +14,8 @@
         "build-storybook": "build-storybook",
         "lint": "eslint \"packages/**/*.{js,ts,tsx}\"",
         "prettier": "npx prettier --check \"packages/**/*.{js,ts,tsx}\"",
-        "prettier:fix": "npx prettier --write \"packages/**/*.{js,ts,tsx}\""
+        "prettier:fix": "npx prettier --write \"packages/**/*.{js,ts,tsx}\"",
+        "husky": "husky install"
     },
     "repository": {
         "type": "git",
@@ -60,6 +61,7 @@
         "eslint-plugin-prettier": "^4.2.1",
         "eslint-plugin-react": "^7.30.1",
         "eslint-plugin-react-hooks": "^4.6.0",
+        "husky": "^8.0.1",
         "jest": "^28.1.2",
         "jest-environment-jsdom": "^28.1.2",
         "lerna": "^5.1.6",
